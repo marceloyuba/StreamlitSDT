@@ -20,7 +20,7 @@ with st.container():
         st.text("")
         
     with col2: 
-        st.image("scr/SDTLogoC.png",width=1200, use_column_width=False, output_format='auto')
+        st.image("scr/SDTLogoC.png",width=1200, use_column_width=True, output_format='auto')
         
     with col3:
         st.text("")
