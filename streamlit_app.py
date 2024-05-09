@@ -12,7 +12,7 @@ def local_css(file_name):
 local_css("style/style.css")
 st.title("")
 
-st.text(" " * 50)    
+st.text(" " * 250)    
 st.image("scr/SDTLogoC.png",width=1200, use_column_width=False, output_format='auto')
 st.title("")
     
