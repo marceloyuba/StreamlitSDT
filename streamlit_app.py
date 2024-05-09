@@ -12,8 +12,20 @@ def local_css(file_name):
 local_css("style/style.css")
 
 
-  
-st.image("scr/SDTLogoC.png",width=1200, use_column_width=True, output_format='auto')
+column_widths = [2, 1, 2]
+with st.container():
+     
+    col1, col2, col3 = st.columns(column_widths)   
+    with col1:
+        st.text("")
+        
+    with col2: 
+        st.image("scr/SDTLogoC.png",width=1200, use_column_width=False, output_format='auto')
+        
+    with col3:
+        st.text("")
+        
+        
 st.title("")
     
 
@@ -66,41 +78,8 @@ with st.container():
     
     st.subheader("Datos relevantes del proyecto")
     st.write("[Nuestros datos >](https://dashboardsiniestrosviales.observablehq.cloud/documentaci-n/)")
-       
 
-with st.container():    
-    st.markdown('<style>h3 {color: white;}, font=</style>', unsafe_allow_html=True)
-    st.markdown('<style>h2 {color: white;}, font=</style>', unsafe_allow_html=True)
-    st.markdown('<style>h1 {color: white;}, font=</style>', unsafe_allow_html=True)
-st.title("")
 
-def main():    
-
-    st.title("Dashboard de analisis de insercion de mercado")
-    st.markdown(
-        """
-        <div style="display: flex; justify-content: center;">
-       <iframe title="DatasetMockup" width="1300" height="860" src="https://app.powerbi.com/view?r=eyJrIjoiZjRmOWFiOWUtZmE4Yy00MDcwLTllNjktNjE5NTcwZDY3OTJlIiwidCI6ImUyYjc5Nzc5LTBhODgtNDMzMS05YjQyLTM4NGNkNzFjODVkNyIsImMiOjR9&pageName=ReportSection10f0c58045468d53ab10" frameborder="0" allowFullScreen="true"></iframe>
-       </div>
-        """,
-        
-        unsafe_allow_html=True
-    )
-    st.title("Calculador de vehiculos")
-    st.markdown(
-        """
-        <div style="display: flex; justify-content: center;">
-       <iframe title="DatasetMockup" width="1300" height="860" src="https://app.powerbi.com/view?r=eyJrIjoiMjM3OGExNjItNTBmZS00MDhmLThmYzYtNDFlMTYzNWZmYWEyIiwidCI6ImUyYjc5Nzc5LTBhODgtNDMzMS05YjQyLTM4NGNkNzFjODVkNyIsImMiOjR9" frameborder="10" allowFullScreen="true"></iframe>
-       </div>
-        """,
-        
-        unsafe_allow_html=True
-        
-        
-    )
-        
-if __name__ == "__main__":
-    main()
 
 st.title("")
 
