@@ -1,10 +1,8 @@
-import numpy as np
-import pickle
+
+
 import streamlit as st
 from streamlit.hello.utils import show_code
-import Functions
-import xgboost as xgb
-import gzip
+
 st.set_page_config(page_title="Strategic Data Transform", page_icon="scr/fondo.jpg", layout="wide")
            
 def local_css(file_name):
