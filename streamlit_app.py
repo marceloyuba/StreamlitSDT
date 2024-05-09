@@ -13,9 +13,9 @@ local_css("style/style.css")
 st.title("")
 with st.container():
     
-    st.image("scr/titulo.png",use_column_width=True, output_format='auto')
+    st.image("scr/SDTLogoC.png",use_column_width=True, output_format='auto')
     st.title("")
-    st.image("scr/logo.png", use_column_width=True, output_format='auto')
+    
 
   
 with st.container():
