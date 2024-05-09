@@ -13,7 +13,7 @@ local_css("style/style.css")
 
 
 st.text(" " * 250)    
-st.image("scr/SDTLogoC.png",width=1200, use_column_width=False, output_format='auto')
+st.image("scr/SDTLogoC.png",width=1200, use_column_width=True, output_format='auto')
 st.title("")
     
 
