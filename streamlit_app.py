@@ -25,9 +25,10 @@ with st.container():
     with col3:
         st.text("")
 
-st.write("---")        
+    
         
 st.title("Sobre nosotros")
+st.write("---")  
 column_widths = [2, 1]
 with st.container():
      
@@ -43,7 +44,7 @@ with st.container():
         st.image(imagen, width=500, use_column_width=True, output_format='auto')       
 
 st.title("Nuestra propuesta de valor")
-
+st.write("---")  
 column_widths = [2, 1]
 with st.container():
 
@@ -78,6 +79,7 @@ with st.container():
     st.markdown('<style>h3 {color: white;}, font=</style>', unsafe_allow_html=True)
     st.markdown('<style>h2 {color: white;}, font=</style>', unsafe_allow_html=True)
     st.markdown('<style>h1 {color: white;}, font=</style>', unsafe_allow_html=True)
+    st.markdown('<style>p {color: white;}, font=</style>', unsafe_allow_html=True)
     
 column_widths = [2, 1]
 with st.container():
