@@ -40,9 +40,7 @@ with st.container():
         """)
     with col2:
         imagen = "scr/barras.png"  
-        st.image(imagen, width=500, use_column_width=True, output_format='auto')    
-        
-st.write("---")
+        st.image(imagen, width=500, use_column_width=True, output_format='auto')       
 
 st.title("Nuestra propuesta de valor")
 
