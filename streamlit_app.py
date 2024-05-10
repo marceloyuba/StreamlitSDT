@@ -28,7 +28,7 @@ with st.container():
     
         
 st.title("Sobre nosotros")
-st.write("---")  
+st.write("<p style='color:white;'>---</p>", unsafe_allow_html=True)  
 column_widths = [2, 1]
 with st.container():
      
