@@ -44,48 +44,19 @@ with st.container():
 st.title("")
 st.title("Nuestra propuesta de valor")
 column_widths = [2, 1]
-
-# Contenedor principal
 with st.container():
-    # Establecer el estilo CSS para centrar verticalmente el contenido
-    st.markdown("""
-    <style>
-    .vertical-center {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    </style>
-    """, unsafe_allow_html=True)
-    
-    # Dividir el contenedor en dos columnas
-    col1, col2 = st.columns(column_widths)
-    
-    with col1:
-        st.header("Dashboards de alto impacto.")
-        st.subheader("""
-        Nuestra idea es hacer dashboards de un gran impacto visual como a la vez completamente funcionales, interactivos e intuitivos para el usuario. En la actualidad se muestran muchas métricas y gráficos de manera apilada, sin dejar espacios libres, haciéndolos densos para ser leídos e interpretados. Nuestra idea es usar gráficos que sean más originales, respetando su imagen corporativa, pero un poco más desafiantes que paneles convencionales, que simplemente sean funcionales.
-        """)
-        st.header("Analisis Cientificos de datos.")
-        st.subheader("""
-        Gracias a las nuevas tecnologias y librerias disponibles para las mismas, podemos realizar analisis de datos basandonos en complementos del lenguaje de programacion Python, tales como Pandas, Seaborn y Mathplotlib.
-        """)
-
-    with col2:
-        # Estilo CSS para centrar verticalmente la imagen
-        st.markdown("""
-        <style>
-        .center-image {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        </style>
-        """, unsafe_allow_html=True)
-        
-        # Agregar la clase CSS al contenedor de la imagen
-        st.markdown(f'<div class="center-image"><img src="{"scr/barras.png"}" width="500" style="max-width:100%;"></div>', unsafe_allow_html=True)
-
+        with col1:
+            st.header("Dashboards de alto impacto.")
+            st.subheader("""
+            Nuestra idea es hacer dashboards de un gran impacto visual como a la vez completamente funcionales, interactivos e intuitivos para el usuario. En la actualidad se muestran muchas métricas y gráficos de manera apilada, sin dejar espacios libres, haciéndolos densos para ser leídos e interpretados. Nuestra idea es usar gráficos que sean más originales, respetando su imagen corporativa, pero un poco más desafiantes que paneles convencionales, que simplemente sean funcionales.
+            """)
+            st.header("Analisis Cientificos de datos.")
+            st.subheader("""
+            Gracias a las nuevas tecnologias y librerias disponibles para las mismas, podemos realizar analisis de datos basandonos en complementos del lenguaje de programacion Python, tales como Pandas, Seaborn y Mathplotlib.
+            """)
+        with col2:
+                imagen = "scr/dash.png"  
+                st.image(imagen, width=500, use_column_width=True, output_format='auto', unsafe_allow_html=True)    
             
   
 with st.container():
