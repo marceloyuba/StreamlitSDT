@@ -55,7 +55,7 @@ with st.container():
             Gracias a las nuevas tecnologias y librerias disponibles para las mismas, podemos realizar analisis de datos basandonos en complementos del lenguaje de programacion Python, tales como Pandas, Seaborn y Mathplotlib.
             """)
         with col2:
-                imagen = "scr/barras.png"  
+                imagen = "scr/dash.png"  
                 st.image(imagen, width=500, use_column_width=True, output_format='auto')    
             
   
