@@ -101,7 +101,7 @@ with st.container():
         imagen = "scr/cliente.png"  
         st.image(imagen, width=500, use_column_width=True, output_format='auto')        
 
-st.write("<hr style='border-top: 1px solid white;'>", unsafe_allow_html=True)    
+st.write("<hr style='border-top: 1px solid grey;'>", unsafe_allow_html=True)    
 
 with st.container():
     col1, col2 = st.columns(column_widths)
