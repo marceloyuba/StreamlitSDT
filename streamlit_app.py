@@ -43,15 +43,21 @@ with st.container():
         
         
 st.title("Nuestra propuesta de valor")
-st.header("Dashboards de alto impacto.")
-st.subheader("""
-Nuestra idea es hacer dashboards de un gran impacto visual como a la vez completamente funcionales, interactivos e intuitivos para el usuario. En la actualidad se muestran muchas métricas y gráficos de manera apilada, sin dejar espacios libres, haciéndolos densos para ser leídos e interpretados. Nuestra idea es usar gráficos que sean más originales, respetando su imagen corporativa, pero un poco más desafiantes que paneles convencionales, que simplemente sean funcionales.
-""")
-st.header("Analisis Cientificos de datos.")
-st.subheader("""
-Gracias a las nuevas tecnologias y librerias disponibles para las mismas, podemos realizar analisis de datos basandonos en complementos del lenguaje de programacion Python, tales como Pandas, Seaborn y Mathplotlib.
-""")
-
+column_widths = [2, 1]
+with st.container():
+        with col1:
+            st.header("Dashboards de alto impacto.")
+            st.subheader("""
+            Nuestra idea es hacer dashboards de un gran impacto visual como a la vez completamente funcionales, interactivos e intuitivos para el usuario. En la actualidad se muestran muchas métricas y gráficos de manera apilada, sin dejar espacios libres, haciéndolos densos para ser leídos e interpretados. Nuestra idea es usar gráficos que sean más originales, respetando su imagen corporativa, pero un poco más desafiantes que paneles convencionales, que simplemente sean funcionales.
+            """)
+            st.header("Analisis Cientificos de datos.")
+            st.subheader("""
+            Gracias a las nuevas tecnologias y librerias disponibles para las mismas, podemos realizar analisis de datos basandonos en complementos del lenguaje de programacion Python, tales como Pandas, Seaborn y Mathplotlib.
+            """)
+        with col2:
+                imagen = "scr/barras.png"  
+                st.image(imagen, width=500, use_column_width=True, output_format='auto')    
+            
   
 with st.container():
     st.markdown(
