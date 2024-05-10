@@ -28,7 +28,7 @@ with st.container():
     
         
 st.title("Sobre nosotros")
-st.write("<hr style='border-top: 1px solid white;'>", unsafe_allow_html=True)
+st.write("<hr style='border-top: 3px solid white;'>", unsafe_allow_html=True)
 column_widths = [2, 1]
 with st.container():
      
@@ -81,14 +81,14 @@ with st.container():
     st.markdown('<style>h1 {color: white;}, font=</style>', unsafe_allow_html=True)
     st.markdown('<style>write {color: white;}, font=</style>', unsafe_allow_html=True)
 st.title("Nuestros proyectos")    
-st.write("<hr style='border-top: 1px solid white;'>", unsafe_allow_html=True)    
+st.write("<hr style='border-top: 3px solid white;'>", unsafe_allow_html=True)    
 column_widths = [2, 1]
 with st.container():
      
     col1, col2 = st.columns(column_widths)   
     
     with col1:
-        st.title("Nuestro Cliente")
+        st.header("Greyhound NYC Insercion de mercado")
         st.markdown(""" 
                 #### Empresa líder en el mercado de transporte de pasajeros de media y larga distancia, con una larga trayectoria, paso a manos de Flix North America y Juntos, FlixBus, Greyhound y sus socios continúan ofreciendo una experiencia de autobús interurbano de clase mundial inteligente, ecológica y moderna, brindando la mejor opción asequible para aún más personas que viajan por los Estados Unidos.
                   """) 
@@ -103,7 +103,7 @@ with st.container():
     col1, col2 = st.columns(column_widths)
     
     with col1:
-        st.title("Nuestra mision")        
+        st.title("Accidentes Viales en la Ciudad de Buenos Aires")        
         st.markdown("""
                 #### Desde la expansión en 2021, Nuestro cliente analiza nuevos mercados fuera del transporte de buses, por eso nos encomendó analizar la inserción al negocio de los viajes en automóviles, analizando a su competidores directos (Taxis, Uber, Lyft) y comenzando por la ciudad de Nueva York, ya que la misma tiene una de las redes mas complejas de transporte en todo el pais, nuestro trabajo es analizar si es viable el ingreso al sistema cumpliendo con las regulaciones impuestas por el gobierno respecto a tener una ciudad libre de emisiones contaminantes""") 
     
