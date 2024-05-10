@@ -60,7 +60,7 @@ with st.container():
     
     # Dividir el contenedor en dos columnas
     col1, col2 = st.columns(column_widths)
-    imagen = "scr/barras.png"
+    
     with col1:
         st.header("Dashboards de alto impacto.")
         st.subheader("""
@@ -84,7 +84,7 @@ with st.container():
         """, unsafe_allow_html=True)
         
         # Agregar la clase CSS al contenedor de la imagen
-        st.markdown(f'<div class="center-image"><img src="{imagen}" width="500" style="max-width:100%;"></div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="center-image"><img src="{"scr/barras.png"}" width="500" style="max-width:100%;"></div>', unsafe_allow_html=True)
 
             
   
