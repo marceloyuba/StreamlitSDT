@@ -38,7 +38,7 @@ with st.container():
         #### Se basa en un tipo de negocio B2B. Como empresa, ofrecer servicios a otras empresas, que estén dentro de la esfera del IT, tanto como empresas no relacionadas a la actividad y tengan necesidades de analizar sus datos y que permita poder desarrollar mejor sus actividades, teniendo conciencia de donde se encuentran las fallas en relación con cómo administran su información de negocio. 
         """)
     with col2:
-        imagen = "scr/cliente.png"  
+        imagen = "scr/barras.png"  
         st.image(imagen, width=500, use_column_width=True, output_format='auto')    
         
         
