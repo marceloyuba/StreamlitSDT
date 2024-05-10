@@ -46,6 +46,9 @@ st.title("Nuestra propuesta de valor")
 
 column_widths = [2, 1]
 with st.container():
+
+        col1, col2 = st.columns(column_widths)  
+        
         with col1:
             st.header("Dashboards de alto impacto.")
             st.subheader("""
