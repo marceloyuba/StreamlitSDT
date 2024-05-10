@@ -56,7 +56,7 @@ with st.container():
             """)
         with col2:
                 imagen = "scr/dash.png"  
-                st.image(imagen, width=500, use_column_width=True, output_format='auto', unsafe_allow_html=True)    
+                st.image(imagen, width=500, use_column_width=True, output_format='auto')    
             
   
 with st.container():
