@@ -26,21 +26,21 @@ with st.container():
         st.text("")
         
         
-st.header("Sobre nosotros")
+st.title("Sobre nosotros")
 
 st.subheader("""
 Strategic Data Transform es una consultora de información, para generar estrategias de negocios, basado en datos.
 #### Se basa en un tipo de negocio B2B. Como empresa, ofrecer servicios a otras empresas, que estén dentro de la esfera del IT, tanto como empresas no relacionadas a la actividad y tengan necesidades de analizar sus datos y que permita poder desarrollar mejor sus actividades, teniendo conciencia de donde se encuentran las fallas en relación con cómo administran su información de negocio. 
 """)
 
-st.header("Nuestra propuesta de valor")
+st.title("Nuestra propuesta de valor")
+st.header("Dashboards de alto impacto.")
 st.subheader("""
-Dashboards de alto impacto.
-#### Nuestra idea es hacer dashboards de un gran impacto visual como a la vez completamente funcionales, interactivos e intuitivos para el usuario. En la actualidad se muestran muchas métricas y gráficos de manera apilada, sin dejar espacios libres, haciéndolos densos para ser leídos e interpretados. Nuestra idea es usar gráficos que sean más originales, respetando su imagen corporativa, pero un poco más desafiantes que paneles convencionales, que simplemente sean funcionales.
+Nuestra idea es hacer dashboards de un gran impacto visual como a la vez completamente funcionales, interactivos e intuitivos para el usuario. En la actualidad se muestran muchas métricas y gráficos de manera apilada, sin dejar espacios libres, haciéndolos densos para ser leídos e interpretados. Nuestra idea es usar gráficos que sean más originales, respetando su imagen corporativa, pero un poco más desafiantes que paneles convencionales, que simplemente sean funcionales.
 """)
+st.header("Analisis Cientificos de datos.")
 st.subheader("""
-Analisis Cientificos de datos.
-#### Gracias a las nuevas tecnologias y librerias disponibles para las mismas, podemos realizar analisis de datos basandonos en complementos del lenguaje de programacion Python, tales como Pandas, Seaborn y Mathplotlib y por supuesto, Machine Learning.
+Gracias a las nuevas tecnologias y librerias disponibles para las mismas, podemos realizar analisis de datos basandonos en complementos del lenguaje de programacion Python, tales como Pandas, Seaborn y Mathplotlib y por supuesto, Machine Learning.
 """)
 
   
