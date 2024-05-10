@@ -98,7 +98,7 @@ with st.container():
         st.subheader("Datos relevantes del proyecto")
         st.subheader("Github: [Acceder al Repositorio](https://github.com/Bethcosima)")
     with col2:
-        imagen = "scr/cliente.png"  
+        imagen = "scr/grey.png"  
         st.image(imagen, width=500, use_column_width=True, output_format='auto')        
 
 st.write("<hr style='border-top: 1px solid grey;'>", unsafe_allow_html=True)    
@@ -116,7 +116,7 @@ with st.container():
         st.subheader("Github: [Acceder al Repositorio](https://github.com/Bethcosima)")
     
     with col2:
-        imagen = "scr/mision.png"  
+        imagen = "scr/BA.png"  
         st.image(imagen, width=500, use_column_width=True, output_format='auto')
     
     
@@ -138,9 +138,8 @@ with st.container():
     with col2:
         imagen = "scr/mision.png"  
         st.image(imagen, width=500, use_column_width=True, output_format='auto')
-    
-    st.subheader("Datos relevantes del proyecto")
-    st.write("[Nuestros datos >](https://dashboardsiniestrosviales.observablehq.cloud/documentaci-n/)")
+st.write("<hr style='border-top: 1px solid grey;'>", unsafe_allow_html=True)  
+
 
 st.title("")
 
