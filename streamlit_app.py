@@ -79,7 +79,7 @@ with st.container():
     st.markdown('<style>h3 {color: white;}, font=</style>', unsafe_allow_html=True)
     st.markdown('<style>h2 {color: white;}, font=</style>', unsafe_allow_html=True)
     st.markdown('<style>h1 {color: white;}, font=</style>', unsafe_allow_html=True)
-    st.markdown('<style>p {color: white;}, font=</style>', unsafe_allow_html=True)
+    st.markdown('<style>write {color: white;}, font=</style>', unsafe_allow_html=True)
 st.write("---")      
 column_widths = [2, 1]
 with st.container():
