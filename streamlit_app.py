@@ -41,7 +41,7 @@ with st.container():
         imagen = "scr/barras.png"  
         st.image(imagen, width=500, use_column_width=True, output_format='auto')    
         
-        
+st.title("")
 st.title("Nuestra propuesta de valor")
 column_widths = [2, 1]
 with st.container():
