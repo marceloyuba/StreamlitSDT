@@ -14,7 +14,7 @@ local_css("style/style.css")
 
 column_widths = [1, 3, 1]
 with st.container():
-     
+    st.title("")
     col1, col2, col3 = st.columns(column_widths)   
     with col1:
         st.text("")
