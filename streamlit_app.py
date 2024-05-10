@@ -110,25 +110,30 @@ with st.container():
         st.header("Accidentes Viales en la Ciudad de Buenos Aires")        
         st.markdown("""
                 #### Desde la expansión en 2021, Nuestro cliente analiza nuevos mercados fuera del transporte de buses, por eso nos encomendó analizar la inserción al negocio de los viajes en automóviles, analizando a su competidores directos (Taxis, Uber, Lyft) y comenzando por la ciudad de Nueva York, ya que la misma tiene una de las redes mas complejas de transporte en todo el pais, nuestro trabajo es analizar si es viable el ingreso al sistema cumpliendo con las regulaciones impuestas por el gobierno respecto a tener una ciudad libre de emisiones contaminantes""") 
-    
+        st.subheader("Acceso al proyecto")
+        st.subheader("Github: [Acceder a la App](https://mockupapp.streamlit.app/)") 
+        st.subheader("Datos relevantes del proyecto")
+        st.subheader("Github: [Acceder al Repositorio](https://github.com/Bethcosima)")
     
     with col2:
         imagen = "scr/mision.png"  
         st.image(imagen, width=500, use_column_width=True, output_format='auto')
     
     
-    
-
-st.title("")
+st.write("<hr style='border-top: 1px solid grey;'>", unsafe_allow_html=True)    
 
 with st.container():
     col1, col2 = st.columns(column_widths)
     
     with col1:
-        st.header("Accidentes Viales en la Ciudad de Buenos Aires")        
+        st.header("Callejon Futbol")        
         st.markdown("""
-                #### Desde la expansión en 2021, Nuestro cliente analiza nuevos mercados fuera del transporte de buses, por eso nos encomendó analizar la inserción al negocio de los viajes en automóviles, analizando a su competidores directos (Taxis, Uber, Lyft) y comenzando por la ciudad de Nueva York, ya que la misma tiene una de las redes mas complejas de transporte en todo el pais, nuestro trabajo es analizar si es viable el ingreso al sistema cumpliendo con las regulaciones impuestas por el gobierno respecto a tener una ciudad libre de emisiones contaminantes""") 
-    
+                #### Es una propuesta diferente de analizar el Futbol, tomando a los dos maximos referentes del siglo 21, Lionel messi y Cristiano Ronaldo, hacemos un repaso de sus estadisticas en sus años en La Liga y las comptencias continentales, por su paso por Barcelona y Real Madrid respectivamente 
+                """) 
+        st.subheader("Acceso al proyecto")
+        st.subheader("Github: [Acceder a la App](https://mockupapp.streamlit.app/)") 
+        st.subheader("Datos relevantes del proyecto")
+        st.subheader("Github: [Acceder al Repositorio](https://github.com/Bethcosima)")
     
     with col2:
         imagen = "scr/mision.png"  
