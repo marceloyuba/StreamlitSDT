@@ -94,8 +94,8 @@ with st.container():
                   """)
         st.subheader("Acceso al proyecto")
         st.subheader("Github: [Acceder a la App](https://mockupapp.streamlit.app/)") 
-        st.subheader("Datos relevantes del proyecto")
-        st.subheader("Github: [Acceder a su perfil](https://github.com/Bethcosima)")
+        st.subheader("Datos relevantes del Proyecto")
+        st.subheader("Github: [Acceder al Repositorio](https://github.com/Bethcosima)")
     with col2:
         imagen = "scr/cliente.png"  
         st.image(imagen, width=500, use_column_width=True, output_format='auto')        
