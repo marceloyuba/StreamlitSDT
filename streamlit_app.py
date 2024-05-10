@@ -40,7 +40,7 @@ Nuestra idea es hacer dashboards de un gran impacto visual como a la vez complet
 """)
 st.header("Analisis Cientificos de datos.")
 st.subheader("""
-Gracias a las nuevas tecnologias y librerias disponibles para las mismas, podemos realizar analisis de datos basandonos en complementos del lenguaje de programacion Python, tales como Pandas, Seaborn y Mathplotlib y por supuesto, Machine Learning.
+Gracias a las nuevas tecnologias y librerias disponibles para las mismas, podemos realizar analisis de datos basandonos en complementos del lenguaje de programacion Python, tales como Pandas, Seaborn y Mathplotlib.
 """)
 
   
