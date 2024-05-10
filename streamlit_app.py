@@ -27,12 +27,21 @@ with st.container():
         
         
 st.title("Sobre nosotros")
-
-st.subheader("""
-Strategic Data Transform es una consultora de información, para generar estrategias de negocios, basado en datos.
-#### Se basa en un tipo de negocio B2B. Como empresa, ofrecer servicios a otras empresas, que estén dentro de la esfera del IT, tanto como empresas no relacionadas a la actividad y tengan necesidades de analizar sus datos y que permita poder desarrollar mejor sus actividades, teniendo conciencia de donde se encuentran las fallas en relación con cómo administran su información de negocio. 
-""")
-
+column_widths = [2, 1]
+with st.container():
+     
+    col1, col2 = st.columns(column_widths)   
+    
+    with col1:
+        st.subheader("""
+        Strategic Data Transform es una consultora de información, para generar estrategias de negocios, basado en datos.
+        #### Se basa en un tipo de negocio B2B. Como empresa, ofrecer servicios a otras empresas, que estén dentro de la esfera del IT, tanto como empresas no relacionadas a la actividad y tengan necesidades de analizar sus datos y que permita poder desarrollar mejor sus actividades, teniendo conciencia de donde se encuentran las fallas en relación con cómo administran su información de negocio. 
+        """)
+    with col2:
+        imagen = "scr/cliente.png"  
+        st.image(imagen, width=500, use_column_width=True, output_format='auto')    
+        
+        
 st.title("Nuestra propuesta de valor")
 st.header("Dashboards de alto impacto.")
 st.subheader("""
