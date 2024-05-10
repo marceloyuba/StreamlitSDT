@@ -80,7 +80,7 @@ with st.container():
     st.markdown('<style>h2 {color: white;}, font=</style>', unsafe_allow_html=True)
     st.markdown('<style>h1 {color: white;}, font=</style>', unsafe_allow_html=True)
     st.markdown('<style>write {color: white;}, font=</style>', unsafe_allow_html=True)
-st.write("---")      
+st.write("<hr style='border-top: 1px solid white;'>", unsafe_allow_html=True)    
 column_widths = [2, 1]
 with st.container():
      
