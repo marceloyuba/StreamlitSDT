@@ -60,7 +60,7 @@ with st.container():
     
     # Dividir el contenedor en dos columnas
     col1, col2 = st.columns(column_widths)
-    
+    imagen = "scr/barras.png"
     with col1:
         st.header("Dashboards de alto impacto.")
         st.subheader("""
