@@ -45,6 +45,7 @@ with st.container():
 st.write("---")
 
 st.title("Nuestra propuesta de valor")
+
 column_widths = [2, 1]
 with st.container():
         with col1:
