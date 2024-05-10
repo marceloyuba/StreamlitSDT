@@ -90,7 +90,8 @@ with st.container():
     with col1:
         st.header("Greyhound NYC Insercion de mercado")
         st.markdown(""" 
-                #### Desde la expansión en 2021, Nuestro cliente analiza nuevos mercados fuera del transporte de buses, por eso nos encomendó analizar la inserción al negocio de los viajes en automóviles, analizando a su competidores directos (Taxis, Uber, Lyft) y comenzando por la ciudad de Nueva York, ya que la misma tiene una de las redes mas complejas de transporte en todo el pais, nuestro trabajo es analizar si es viable el ingreso al sistema cumpliendo con las regulaciones impuestas por el gobierno respecto a tener una ciudad libre de emisiones contaminantes""") 
+                #### Proyecto de analisis de insercion de mercado al sistema de vehiculos con chofer para la ciudad de NYC, se analizaron tanto los factores economicos como ambientales para tomar desiciones de si invertir o no en este negocio, tomando en cuenta varias hipotesis y llegando a sus respectivas conclusiones
+                # """) 
                 
         st.subheader("Acceso al proyecto")
         st.subheader("Github: [Acceder a la App](https://mockupapp.streamlit.app/)") 
