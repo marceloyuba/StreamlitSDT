@@ -37,8 +37,9 @@ st.header("Nuestra propuesta de valor")
 st.subheader("""
 Dashboards de alto impacto.
 #### Nuestra idea es hacer dashboards de un gran impacto visual como a la vez completamente funcionales, interactivos e intuitivos para el usuario. En la actualidad se muestran muchas métricas y gráficos de manera apilada, sin dejar espacios libres, haciéndolos densos para ser leídos e interpretados. Nuestra idea es usar gráficos que sean más originales, respetando su imagen corporativa, pero un poco más desafiantes que paneles convencionales, que simplemente sean funcionales.
-
-#### Analisis Cientificos de datos.
+""")
+st.subheader("""
+Analisis Cientificos de datos.
 #### Gracias a las nuevas tecnologias y librerias disponibles para las mismas, podemos realizar analisis de datos basandonos en complementos del lenguaje de programacion Python, tales como Pandas, Seaborn y Mathplotlib y por supuesto, Machine Learning.
 """)
 
