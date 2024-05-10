@@ -28,7 +28,7 @@ with st.container():
     
         
 st.title("Sobre nosotros")
-st.write("<hr style='border-top: 3px solid white;'>", unsafe_allow_html=True)
+st.write("<hr style='border-top: 0.5px solid white;'>", unsafe_allow_html=True)
 column_widths = [2, 1]
 with st.container():
      
@@ -44,7 +44,7 @@ with st.container():
         st.image(imagen, width=500, use_column_width=True, output_format='auto')       
 
 st.title("Nuestra propuesta de valor")
-st.write("<hr style='border-top: 1px solid white;'>", unsafe_allow_html=True)
+st.write("<hr style='border-top: 0.5px solid white;'>", unsafe_allow_html=True)
 column_widths = [2, 1]
 with st.container():
 
