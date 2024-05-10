@@ -91,8 +91,11 @@ with st.container():
         st.header("Greyhound NYC Insercion de mercado")
         st.markdown(""" 
                 #### Empresa líder en el mercado de transporte de pasajeros de media y larga distancia, con una larga trayectoria, paso a manos de Flix North America y Juntos, FlixBus, Greyhound y sus socios continúan ofreciendo una experiencia de autobús interurbano de clase mundial inteligente, ecológica y moderna, brindando la mejor opción asequible para aún más personas que viajan por los Estados Unidos.
-                  """) 
-    
+                  """)
+        st.subheader("Acceso al proyecto")
+        st.subheader("Github: [Acceder a la App](https://mockupapp.streamlit.app/)") 
+        st.subheader("Datos relevantes del proyecto")
+        st.subheader("Github: [Acceder a su perfil](https://github.com/Bethcosima)")
     with col2:
         imagen = "scr/cliente.png"  
         st.image(imagen, width=500, use_column_width=True, output_format='auto')        
@@ -103,7 +106,25 @@ with st.container():
     col1, col2 = st.columns(column_widths)
     
     with col1:
-        st.title("Accidentes Viales en la Ciudad de Buenos Aires")        
+        st.header("Accidentes Viales en la Ciudad de Buenos Aires")        
+        st.markdown("""
+                #### Desde la expansión en 2021, Nuestro cliente analiza nuevos mercados fuera del transporte de buses, por eso nos encomendó analizar la inserción al negocio de los viajes en automóviles, analizando a su competidores directos (Taxis, Uber, Lyft) y comenzando por la ciudad de Nueva York, ya que la misma tiene una de las redes mas complejas de transporte en todo el pais, nuestro trabajo es analizar si es viable el ingreso al sistema cumpliendo con las regulaciones impuestas por el gobierno respecto a tener una ciudad libre de emisiones contaminantes""") 
+    
+    
+    with col2:
+        imagen = "scr/mision.png"  
+        st.image(imagen, width=500, use_column_width=True, output_format='auto')
+    
+    
+    
+
+st.title("")
+
+with st.container():
+    col1, col2 = st.columns(column_widths)
+    
+    with col1:
+        st.header("Accidentes Viales en la Ciudad de Buenos Aires")        
         st.markdown("""
                 #### Desde la expansión en 2021, Nuestro cliente analiza nuevos mercados fuera del transporte de buses, por eso nos encomendó analizar la inserción al negocio de los viajes en automóviles, analizando a su competidores directos (Taxis, Uber, Lyft) y comenzando por la ciudad de Nueva York, ya que la misma tiene una de las redes mas complejas de transporte en todo el pais, nuestro trabajo es analizar si es viable el ingreso al sistema cumpliendo con las regulaciones impuestas por el gobierno respecto a tener una ciudad libre de emisiones contaminantes""") 
     
@@ -114,8 +135,6 @@ with st.container():
     
     st.subheader("Datos relevantes del proyecto")
     st.write("[Nuestros datos >](https://dashboardsiniestrosviales.observablehq.cloud/documentaci-n/)")
-
-
 
 st.title("")
 
