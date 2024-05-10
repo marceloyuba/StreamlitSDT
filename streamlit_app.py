@@ -136,7 +136,7 @@ with st.container():
         st.subheader("Github: [Acceder al Repositorio](https://github.com/Bethcosima)")
     
     with col2:
-        imagen = "scr/mision.png"  
+        imagen = "scr/callejon.png"  
         st.image(imagen, width=500, use_column_width=True, output_format='auto')
 st.write("<hr style='border-top: 1px solid grey;'>", unsafe_allow_html=True)  
 
