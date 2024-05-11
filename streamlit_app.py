@@ -124,6 +124,7 @@ st.write("""
 <style>
     .botones a {
         font-size: 30px;
+         font-family: Trebuchet MS, sans-serif;
         margin-top: 10px; /* Espacio después de la imagen */
         text-decoration: none; /* Quitar el subrayado */
         color: #ffffff; /* Cambiar el color del texto del enlace */
