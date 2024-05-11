@@ -11,7 +11,7 @@ def local_css(file_name):
         
 local_css("style/style.css")
 
-slider_value = st.sidebar.slider("Select a value", 0, 100, 50)
+slider_value = st.sidebar.slider("Select a value",'[Texto con hipervínculo](https://www.ejemplo.com)')
 
 # Texto con hipervínculo
 texto_con_hipervinculo = "[Texto con hipervínculo](https://www.ejemplo.com)"
