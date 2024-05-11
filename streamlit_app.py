@@ -17,10 +17,10 @@ st.write("""
         position: fixed;
         top: 0px;
         left: 15%;
-        background-color: rgba(240, 240, 240, 0.0);
+        background-color: rgba(240, 240, 240, 0.8);
         padding: 10px;
-        width: 200px;
-        height: 100px;
+        width: 500px;
+        height: 300px;
         z-index: 9999;
     }
 </style>
