@@ -33,7 +33,7 @@ st.write("""
     display: block; /* Convertir la imagen en un bloque para aplicar márgenes automáticos */
 }
     .fixed-container a {
-        size: 30px;
+        font: 30px;
     margin-top: 10px; /* Espacio después de la imagen */
     text-decoration: none; /* Quitar el subrayado */
     color: #ffffff; /* Cambiar el color del texto del enlace */
