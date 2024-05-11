@@ -27,6 +27,7 @@ st.write("""
         
     }
     .fixed-container img {
+        left: 50%;
         width: 700px; /* Ancho de la imagen */
         height: auto; /* Autoajuste de la altura según el ancho */
         margin-bottom: 10px; /* Espacio después de la imagen */
