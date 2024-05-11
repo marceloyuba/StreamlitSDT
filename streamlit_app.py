@@ -11,13 +11,9 @@ def local_css(file_name):
         
 local_css("style/style.css")
 
-slider_value = st.sidebar.slider("Select a value",'[Texto con hipervínculo](https://www.ejemplo.com)', unsafe_allow_html=True)
+slider_label = "[Texto con hipervínculo](https://www.ejemplo.com)"
+slider_value = st.sidebar.slider(label=slider_label, value=0, step=1, format="%d")
 
-# Texto con hipervínculo
-texto_con_hipervinculo = "[Texto con hipervínculo](https://www.ejemplo.com)"
-
-# Mostrar el texto formateado en Markdown
-st.markdown(texto_con_hipervinculo)
 
 column_widths = [1, 3, 1]
 with st.container():
