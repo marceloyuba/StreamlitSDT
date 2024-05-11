@@ -16,7 +16,7 @@ st.write("""
     .fixed-container {
         position: fixed;
         top: 0px;
-        left: 20%;
+        left: 15%;
         background-color: rgba(240, 240, 240, 0.0);
         padding: 10px;
         width: 200px;
@@ -27,34 +27,7 @@ st.write("""
 """, unsafe_allow_html=True)
 
 st.write('<div class="fixed-container"><img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" /><br />Este es un contenedor fijo<br />con varias filas de contenido.</div>', unsafe_allow_html=True)
-
-
-
-
-column_widths = [1, 3, 1]
-with st.container():
-    st.title("")
-    col1, col2, col3 = st.columns(column_widths)   
-    with col1:
-        st.text("")
-        
-    with col2: 
-        st.image("scr/SDTLogoC.png",width=1200, use_column_width=True, output_format='auto')
-        
-    with col3:
-        st.text("")
-with st.container():
-    
-    col1, col2, col3 = st.columns(column_widths)   
-    with col1:
-        st.text("")
-        
-    with col2: 
-        
-        st.subheader("[Productos](https://greyhound.streamlit.app/)")   
-    with col3:
-        st.text("")
-   
+ 
         
 st.title("Sobre nosotros")
 st.write("<hr style='border-top: 0.5px solid grey;'>", unsafe_allow_html=True)
