@@ -18,8 +18,8 @@ st.write("""
         top: 0px;
         left: 30%;
         background-color: rgba(0, 0, 0, 0.8);
-        padding-bottom: 10
-        border-radius: 10px;
+        
+        border-radius: 30px;
         width: auto;
         height: auto;
         z-index: 9999;
