@@ -193,7 +193,32 @@ with st.container():
         st.image(imagen, width=250, use_column_width=False, output_format='auto')   
 
 
+def main():
+    st.title("Aplicación con Contenido Estático")
 
+    # Incluir CSS
+    st.markdown("""
+        <style>
+            .container {
+                padding: 20px;
+                background-color: #f0f0f0;
+            }
+        </style>
+    """, unsafe_allow_html=True)
+
+    # Incluir imagen
+    st.image("static/logo.png", use_column_width=True)
+
+    # Contenido estático
+    st.markdown("""
+        <div class="container">
+            <h2>Contenido Estático</h2>
+            <p>Este es un ejemplo de contenido estático.</p>
+        </div>
+    """, unsafe_allow_html=True)
+
+if __name__ == "__main__":
+    main()
 
 
 page_bg_img = f"""
