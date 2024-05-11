@@ -11,6 +11,7 @@ def local_css(file_name):
         
 local_css("style/style.css")
 
+st.set_page_config(sidebar="collapsed")
 st.sidebar.markdown("Seleccione una opcion")
 slider_label = "[Texto con hipervínculo](https://www.ejemplo.com)"
 st.sidebar.markdown(slider_label, unsafe_allow_html=True)
