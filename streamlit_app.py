@@ -33,6 +33,7 @@ st.write("""
         margin-bottom: 10px; /* Espacio después de la imagen */
     }
     .fixed-container a {
+    margin-top: 10px; /* Espacio después de la imagen */
     text-decoration: none; /* Quitar el subrayado */
     color: #ffffff; /* Cambiar el color del texto del enlace */
 }
