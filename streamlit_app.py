@@ -11,6 +11,12 @@ def local_css(file_name):
         
 local_css("style/style.css")
 
+fixed_container = st.layout(width=200, height=100, x=0, y=0)
+
+with fixed_container:
+    st.write("Este es un contenedor fijo")
+
+
 column_widths = [1, 3, 1]
 with st.container():
     st.title("")
