@@ -10,9 +10,8 @@ def local_css(file_name):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
         
 local_css("style/style.css")
-
-slider_label = "[Texto con hipervínculo](https://www.ejemplo.com)"
 st.sidebar.text("Seleccione una opcion")
+slider_label = "[Texto con hipervínculo](https://www.ejemplo.com)"
 st.sidebar.markdown("Seleccione una opcion",slider_label, unsafe_allow_html=True)
 
 
