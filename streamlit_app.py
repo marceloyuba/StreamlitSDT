@@ -19,8 +19,6 @@ st.write("""
         left: 20%;
         background-color: rgba(240, 240, 240, 0.0);
         padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
         width: 200px;
         height: 100px;
         z-index: 9999;
