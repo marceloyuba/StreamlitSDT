@@ -94,7 +94,7 @@ with st.container():
                 # """) 
                 
         st.subheader("Acceso al proyecto")
-        st.subheader("Pagina: [Acceder a la App](https://mockupapp.streamlit.app/)") 
+        st.subheader("Pagina: [Acceder a la App](https://greyhound.streamlit.app/)") 
         st.subheader("Datos relevantes del proyecto")
         st.subheader("Github: [Acceder al Repositorio](https://github.com/StrategicDataTransform)")
     with col2:
@@ -131,7 +131,7 @@ with st.container():
                 #### Es una propuesta diferente de analizar el Futbol, tomando a los dos maximos referentes del siglo 21, Lionel messi y Cristiano Ronaldo, hacemos un repaso de sus estadisticas en sus años en La Liga y las comptencias continentales, por su paso por Barcelona y Real Madrid respectivamente 
                 """) 
         st.subheader("Acceso al proyecto")
-        st.subheader("Github: [Acceder a la App](https://mockupapp.streamlit.app/)") 
+        st.subheader("Github: [Acceder a la App](https://callejonfutbol.streamlit.app/)") 
         st.subheader("Datos relevantes del proyecto")
         st.subheader("Github: [Acceder al Repositorio](https://github.com/Bethcosima)")
     
