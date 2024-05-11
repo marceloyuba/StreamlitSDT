@@ -32,11 +32,7 @@ with st.container():
         
     with col2: 
         
-        option_selected = st.selectbox(
-    "Select an option",
-    ("[Acceder a su perfil](https://github.com/marceloyuba)", "Opción 2", "Opción 3")
-)
-        
+        st.subheader("Pagina: [Acceder a la App](https://greyhound.streamlit.app/)")   
     with col3:
         st.text("")
    
