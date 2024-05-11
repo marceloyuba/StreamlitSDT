@@ -32,13 +32,13 @@ st.write("""
 </style>
 """, unsafe_allow_html=True)
 
-st.write('<div class="fixed-container"><img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" /><br />Este es un contenedor fijo<br />con varias filas de contenido.</div>', unsafe_allow_html=True)
+st.write('<div class="fixed-container"><img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" /><br />"[Ir a Sección 2](#Sobre)"<br />con varias filas de contenido.</div>', unsafe_allow_html=True)
  
         
 st.title("Sobre nosotros")
 st.write("<hr style='border-top: 0.5px solid grey;'>", unsafe_allow_html=True)
 column_widths = [2, 1]
-with st.container():
+with st.container("#Sobre"):
      
     col1, col2 = st.columns(column_widths)   
     
