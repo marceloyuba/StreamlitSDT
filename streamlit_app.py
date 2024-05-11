@@ -24,11 +24,7 @@ st.write("""
         width: 300px;
         height: 150px;
         text-align: center;
-    }
-
-    body {
-        background-color: #ff0000; /* Color de fondo de la página */
-    }
+    
 </style>
 """, unsafe_allow_html=True)
 
