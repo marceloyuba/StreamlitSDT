@@ -16,7 +16,7 @@ st.write("""
     .fixed-container {
         position: fixed;
         top: 0px;
-        padding: 10px,0,0,0;
+        padding: 10px;
         left: auto;
         background-color: rgba(0, 0, 0, 0.9);
         color: #ffffff;
