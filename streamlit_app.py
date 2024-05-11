@@ -14,17 +14,17 @@ st.title("")
 st.write("""
 <style>
     .fixed-container {
-    position: fixed;
-    top: 0px;
-    padding: 10px;
-    left: 20%;
-    background-image: url('https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true');
-    background-color: rgba(0, 0, 0, 0.9);
-    color: #ffffff;
-    border-radius: 30px;
-    width: 1280px;
-    height: auto;
-    z-index: 9999;
+        position: fixed;
+        top: 0px;
+        padding: 10px;
+        left: 20%;
+        background-image:img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" ;
+        background-color: rgba(0, 0, 0, 0.9);
+        color: #ffffff;
+        border-radius: 30px;
+        width: 1280px;
+        height: auto;
+        z-index: 9999;
         
     }
     .fixed-container img {
@@ -43,6 +43,7 @@ st.write("""
 </style>
 """, unsafe_allow_html=True)
 
+st.write('<img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" />', unsafe_allow_html=True)
  
         
 st.title("Sobre nosotros")
