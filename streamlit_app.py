@@ -20,7 +20,7 @@ st.write("""
         background-color: rgba(0, 0, 0, 0.9);
         color: #ffffff;
         border-radius: 30px;
-        width: 100%
+        width: 1280px
         height: auto;
         z-index: 9999;
         
