@@ -15,6 +15,7 @@ st.write("""
 <style>
     .fixed-container {
         position: fixed;
+        align: center;
         top: 10px;
         left: 10px;
         background-color: #f0f0f0;
