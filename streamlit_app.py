@@ -27,7 +27,7 @@ st.write("""
     }
 
     body {
-        background-color: #e6e6e6; /* Color de fondo de la página */
+        background-color: #ff0000; /* Color de fondo de la página */
     }
 </style>
 """, unsafe_allow_html=True)
