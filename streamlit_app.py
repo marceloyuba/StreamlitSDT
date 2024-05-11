@@ -139,6 +139,8 @@ with st.container():
         st.markdown("""
                 #### Desde la expansión en 2021, Nuestro cliente analiza nuevos mercados fuera del transporte de buses, por eso nos encomendó analizar la inserción al negocio de los viajes en automóviles, analizando a su competidores directos (Taxis, Uber, Lyft) y comenzando por la ciudad de Nueva York, ya que la misma tiene una de las redes mas complejas de transporte en todo el pais, nuestro trabajo es analizar si es viable el ingreso al sistema cumpliendo con las regulaciones impuestas por el gobierno respecto a tener una ciudad libre de emisiones contaminantes""") 
         st.subheader("Acceso al proyecto")
+        st.write('<div class="fixed-container"><a href="https://greyhound.streamlit.app/">Streamlit</a>', unsafe_allow_html=True)
+
         st.subheader('<div class="botones"><"Github: [Acceder a la App](https://greyhound.streamlit.app/)"') 
         st.subheader("Datos relevantes del proyecto")
         st.subheader("Github: [Acceder al Repositorio](https://github.com/Bethcosima)")
