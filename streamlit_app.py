@@ -10,7 +10,7 @@ def local_css(file_name):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
         
 local_css("style/style.css")
-st.title("")
+
 st.write("""
 <style>
     .fixed-container {
@@ -44,7 +44,7 @@ st.write("""
 """, unsafe_allow_html=True)
 
 st.write('<div class="fixed-container"><img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" /></div>', unsafe_allow_html=True)
- 
+st.title("") 
         
 st.title("Sobre nosotros")
 st.write("<hr style='border-top: 0.5px solid grey;'>", unsafe_allow_html=True)
