@@ -32,7 +32,7 @@ st.write("""
 </style>
 """, unsafe_allow_html=True)
 
-st.write('<div class="fixed-container"><img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" /><br /><a>"Pagina: [Acceder a la App](https://greyhound.streamlit.app/)"</a><br />con varias filas de contenido.</div>', unsafe_allow_html=True)
+st.write('<div class="fixed-container"><img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" /><br /><a href="https://mockupapp.streamlit.app/">Streamlit</a><br />con varias filas de contenido.</div>', unsafe_allow_html=True)
  
         
 st.title("Sobre nosotros")
