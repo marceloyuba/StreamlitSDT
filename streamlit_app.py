@@ -14,7 +14,7 @@ local_css("style/style.css")
 st.write("""
 <style>
     .fixed-container {
-        position: sticky;
+        position: absolute;
         top: 0px;
         padding: 10px;
         left: 20%;
