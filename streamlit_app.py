@@ -14,12 +14,12 @@ st.title("")
 st.write("""
 <style>
     .fixed-container {
-        position: fixed;
+        position: auto;
         top: 0px;
         padding: 10px;
         left: 20%;
         background-image:img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" ;
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: rgba(0, 0, 0, 0);
         color: #ffffff;
         border-radius: 30px;
         width: 1280px;
