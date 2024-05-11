@@ -155,12 +155,9 @@ with st.container():
         st.header("Callejon Futbol")        
         st.markdown("""
                 #### Es una propuesta diferente de analizar el Futbol, tomando a los dos maximos referentes del siglo 21, Lionel messi y Cristiano Ronaldo, hacemos un repaso de sus estadisticas en sus años en La Liga y las comptencias continentales, por su paso por Barcelona y Real Madrid respectivamente 
-                """) 
-        st.subheader("Acceso al proyecto")
-        st.subheader("Github: [Acceder a la App](https://callejonfutbol.streamlit.app/)") 
-        st.subheader("Datos relevantes del proyecto")
-        st.subheader("Github: [Acceder al Repositorio](https://github.com/Bethcosima)")
-    
+                """)         
+        st.write('<div class="botones"><a href="https://callejonfutbol.streamlit.app/">Acceder a la App</a>', unsafe_allow_html=True)
+        st.write('<div class="botones"><a href="https://greyhound.streamlit.app/">Acceder a la documentacion</a>', unsafe_allow_html=True)
     with col2:
         imagen = "scr/callejon.png"  
         st.image(imagen, width=500, use_column_width=True, output_format='auto')
