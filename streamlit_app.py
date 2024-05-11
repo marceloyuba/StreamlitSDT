@@ -16,16 +16,16 @@ st.write("""
     .fixed-container {
         position: fixed;
         top: 0px;
-        left: 15%;
-        background-color: rgba(240, 240, 240, 1);
+        left: 50%;
+        background-color: rgba(0, 0, 0, 0.8);
         padding: 10px;
         border-radius: 10px;
-        width: 500px;
-        height: 300px;
+        width: 800px;
+        height: 150px;
         z-index: 9999;
     }
     .fixed-container img {
-        width: 150px; /* Ancho de la imagen */
+        width: 800px; /* Ancho de la imagen */
         height: auto; /* Autoajuste de la altura según el ancho */
         margin-bottom: 10px; /* Espacio después de la imagen */
     }
