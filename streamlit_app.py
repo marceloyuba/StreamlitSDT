@@ -18,7 +18,7 @@ st.write("""
         top: 0px;
         left: 30%;
         background-color: rgba(0, 0, 0, 0.9);
-        text-color: #ffffff;
+        color: #ffffff;
         border-radius: 30px;
         width: auto;
         height: auto;
