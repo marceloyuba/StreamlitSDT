@@ -21,11 +21,11 @@ st.write("""
         color: #ffffff;
         border-radius: 30px;
         width: 100%
-        height: 100px;
+        height: auto;
         z-index: 9999;
     }
     .fixed-container img {
-        width: 800px; /* Ancho de la imagen */
+        width: 700px; /* Ancho de la imagen */
         height: auto; /* Autoajuste de la altura según el ancho */
         margin-bottom: 10px; /* Espacio después de la imagen */
     }
