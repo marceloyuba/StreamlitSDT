@@ -28,7 +28,7 @@ st.write("""
         
     }
     .fixed-container img {
-        width: 700px; /* Ancho de la imagen */
+        width: 1000px; /* Ancho de la imagen */
         height: auto; /* Autoajuste de la altura según el ancho */
         margin: 0 auto; /* Centro horizontalmente */
         display: block; /* Convertir la imagen en un bloque para aplicar márgenes automáticos */
