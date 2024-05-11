@@ -32,18 +32,10 @@ with st.container():
         
     with col2: 
         
-        opciones_con_enlaces = {
-    'Opción 1': 'https://www.ejemplo.com/opcion1',
-    'Opción 2': 'https://www.ejemplo.com/opcion2',
-    'Opción 3': 'https://www.ejemplo.com/opcion3'
-    }
-
-    # Obtener la opción seleccionada
-    opcion_seleccionada = st.selectbox('Selecciona una opción', list(opciones_con_enlaces.keys()))
-
-    # Obtener el enlace correspondiente a la opción seleccionada
-    enlace = opciones_con_enlaces[opcion_seleccionada]
- 
+        st.selectbox(
+        
+        ('[Acceder a su perfil](https://github.com/marceloyuba)', 'Opción 2', 'Opción 3')
+    ) 
         
     with col3:
         st.text("")
