@@ -27,11 +27,11 @@ st.write("""
         
     }
     .fixed-container img {
-        left: 50%;
-        width: 700px; /* Ancho de la imagen */
-        height: auto; /* Autoajuste de la altura según el ancho */
-        margin-bottom: 10px; /* Espacio después de la imagen */
-    }
+    width: 700px; /* Ancho de la imagen */
+    height: auto; /* Autoajuste de la altura según el ancho */
+    margin: 0 auto; /* Centro horizontalmente */
+    display: block; /* Convertir la imagen en un bloque para aplicar márgenes automáticos */
+}
     .fixed-container a {
     margin-top: 10px; /* Espacio después de la imagen */
     text-decoration: none; /* Quitar el subrayado */
