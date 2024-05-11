@@ -38,7 +38,7 @@ st.write('<div class="fixed-container"><img src="https://github.com/marceloyuba/
 st.title("Sobre nosotros")
 st.write("<hr style='border-top: 0.5px solid grey;'>", unsafe_allow_html=True)
 column_widths = [2, 1]
-with st.container("#Sobre"):
+with st.container("Sobre"):
      
     col1, col2 = st.columns(column_widths)   
     
