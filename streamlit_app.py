@@ -24,8 +24,21 @@ with st.container():
         
     with col3:
         st.text("")
-
+with st.container():
     
+    col1, col2, col3 = st.columns(column_widths)   
+    with col1:
+        st.text("")
+        
+    with col2: 
+        st.selectbox(
+        'Selecciona una opción',
+        ('Opción 1', 'Opción 2', 'Opción 3')
+    ) 
+        
+    with col3:
+        st.text("")
+   
         
 st.title("Sobre nosotros")
 st.write("<hr style='border-top: 0.5px solid grey;'>", unsafe_allow_html=True)
