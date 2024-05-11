@@ -30,7 +30,7 @@ st.write("""
         height: auto; /* Autoajuste de la altura según el ancho */
         margin-bottom: 10px; /* Espacio después de la imagen */
     }
-    a {
+    .fixed-container a {
     text-decoration: none; /* Quitar el subrayado */
     color: #ffffff; /* Cambiar el color del texto del enlace */
 }
