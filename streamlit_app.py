@@ -10,9 +10,10 @@ def local_css(file_name):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
         
 local_css("style/style.css")
-st.sidebar.text("Seleccione una opcion")
+
+st.sidebar.markdown("Seleccione una opcion")
 slider_label = "[Texto con hipervínculo](https://www.ejemplo.com)"
-st.sidebar.markdown("Seleccione una opcion",slider_label, unsafe_allow_html=True)
+st.sidebar.markdown(slider_label, unsafe_allow_html=True)
 
 
 column_widths = [1, 3, 1]
