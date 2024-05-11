@@ -21,7 +21,7 @@ st.write("""
         
         border-radius: 10px;
         width: auto;
-        height: 150px;
+        height: auto;
         z-index: 9999;
     }
     .fixed-container img {
