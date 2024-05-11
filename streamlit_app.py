@@ -19,9 +19,15 @@ st.write("""
         left: 15%;
         background-color: rgba(240, 240, 240, 1);
         padding: 10px;
+        border-radius: 10px;
         width: 500px;
         height: 300px;
         z-index: 9999;
+    }
+    .fixed-container img {
+        width: 150px; /* Ancho de la imagen */
+        height: auto; /* Autoajuste de la altura según el ancho */
+        margin-bottom: 10px; /* Espacio después de la imagen */
     }
 </style>
 """, unsafe_allow_html=True)
