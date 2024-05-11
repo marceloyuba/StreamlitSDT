@@ -23,7 +23,7 @@ st.write("""
         width: 100%
         height: auto;
         z-index: 9999;
-        a-color:
+        
     }
     .fixed-container img {
         width: 700px; /* Ancho de la imagen */
