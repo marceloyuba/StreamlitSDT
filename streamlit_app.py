@@ -15,15 +15,20 @@ st.write("""
 <style>
     .fixed-container {
         position: fixed;
-        align: center;
-        top: 10px;
-        left: 10px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         background-color: #f0f0f0;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        width: 200px;
-        height: 100px;
+        padding: 20px;
+        border: 2px solid #333;
+        border-radius: 10px;
+        width: 300px;
+        height: 150px;
+        text-align: center;
+    }
+
+    body {
+        background-color: #e6e6e6; /* Color de fondo de la página */
     }
 </style>
 """, unsafe_allow_html=True)
