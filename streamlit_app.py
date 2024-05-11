@@ -23,7 +23,7 @@ st.write("""
         color: #ffffff;
         
         width: 1280px;
-        height: 100px;
+        height: auto;
         z-index: 9999;
         
     }
