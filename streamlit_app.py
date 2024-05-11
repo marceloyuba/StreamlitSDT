@@ -14,7 +14,7 @@ st.title("")
 st.write("""
 <style>
     .fixed-container {
-        position: auto;
+        position: fixed;
         top: 0px;
         padding: 10px;
         left: 20%;
