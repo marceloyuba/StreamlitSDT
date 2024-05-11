@@ -17,7 +17,7 @@ st.write("""
         position: fixed;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: #f0f0f0;
+        background-color: #ff0000;
         padding: 20px;
         border: 2px solid #333;
         border-radius: 10px;
