@@ -17,7 +17,7 @@ st.write("""
         position: fixed;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: #ff0000;
+        background-color: rgba(240, 240, 240, 0.8); /* RGBA con un alpha de 0.8 para semi-transparencia */
         padding: 20px;
         border: 2px solid #333;
         border-radius: 10px;
