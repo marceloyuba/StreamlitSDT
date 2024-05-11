@@ -37,6 +37,8 @@ st.write("""
     margin-top: 10px; /* Espacio después de la imagen */
     text-decoration: none; /* Quitar el subrayado */
     color: #ffffff; /* Cambiar el color del texto del enlace */
+    margin: 0 auto; /* Centro horizontalmente */
+    display: block;
 }
 </style>
 """, unsafe_allow_html=True)
