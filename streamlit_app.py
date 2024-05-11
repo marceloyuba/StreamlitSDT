@@ -82,6 +82,17 @@ with st.container():
                 imagen = "scr/dash.png"  
                 st.image(imagen, width=500, use_column_width=True, output_format='auto')    
             
+st.write("""
+<style>
+    .botones a {
+        font-size: 30px;
+        margin-top: 10px; /* Espacio después de la imagen */
+        text-decoration: none; /* Quitar el subrayado */
+        color: #ffffff; /* Cambiar el color del texto del enlace */
+        
+    }
+</style>
+""", unsafe_allow_html=True)   
   
 with st.container():
     st.markdown(
@@ -99,17 +110,7 @@ with st.container():
     st.markdown('<style>h2 {color: white;}, font=</style>', unsafe_allow_html=True)
     st.markdown('<style>h1 {color: white;}, font=</style>', unsafe_allow_html=True)
     st.markdown('<style>write {color: white;}, font=</style>', unsafe_allow_html=True)
-st.write("""
-<style>
-    .botones a {
-        font-size: 30px;
-        margin-top: 10px; /* Espacio después de la imagen */
-        text-decoration: none; /* Quitar el subrayado */
-        color: #ffffff; /* Cambiar el color del texto del enlace */
-        
-    }
-</style>
-""", unsafe_allow_html=True)   
+
 st.title("Nuestros proyectos")    
 st.write("<hr style='border-top: 3px solid white;'>", unsafe_allow_html=True)    
 column_widths = [2, 1]
