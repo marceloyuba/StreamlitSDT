@@ -16,6 +16,7 @@ st.write("""
     .fixed-container {
         position: fixed;
         top: 0px;
+        padding: 10px,0,0,0;
         left: auto;
         background-color: rgba(0, 0, 0, 0.9);
         color: #ffffff;
@@ -31,7 +32,6 @@ st.write("""
         margin-bottom: 10px; /* Espacio después de la imagen */
     }
     .fixed-container a {
-    padding-right: 10px;
     text-decoration: none; /* Quitar el subrayado */
     color: #ffffff; /* Cambiar el color del texto del enlace */
 }
