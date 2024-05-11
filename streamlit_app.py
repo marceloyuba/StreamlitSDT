@@ -12,7 +12,7 @@ def local_css(file_name):
 local_css("style/style.css")
 
 slider_label = "[Texto con hipervínculo](https://www.ejemplo.com)"
-slider_value = st.sidebar(label=slider_label, value=0, step=1, format="%d")
+st.sidebar(label=slider_label)
 
 
 column_widths = [1, 3, 1]
