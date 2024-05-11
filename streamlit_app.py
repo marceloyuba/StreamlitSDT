@@ -15,7 +15,7 @@ st.write("""
 <style>
     .fixed-container {
         position: relative;
-        bottom: 10px;
+        bottom: 30px;
         padding: 10px;
         left: 10%;
         background-image:img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" ;
