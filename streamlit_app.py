@@ -21,9 +21,9 @@ st.write("""
         background-image:img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" ;
         background-color: rgba(0, 0, 0, 0);
         color: #ffffff;
-        border-radius: 30px;
+        
         width: 1280px;
-        height: auto;
+        height: 100px;
         z-index: 9999;
         
     }
