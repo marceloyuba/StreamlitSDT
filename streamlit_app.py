@@ -23,12 +23,17 @@ st.write("""
         width: 100%
         height: auto;
         z-index: 9999;
+        a-color:
     }
     .fixed-container img {
         width: 700px; /* Ancho de la imagen */
         height: auto; /* Autoajuste de la altura según el ancho */
         margin-bottom: 10px; /* Espacio después de la imagen */
     }
+    a {
+    text-decoration: none; /* Quitar el subrayado */
+    color: #ffffff; /* Cambiar el color del texto del enlace */
+}
 </style>
 """, unsafe_allow_html=True)
 
