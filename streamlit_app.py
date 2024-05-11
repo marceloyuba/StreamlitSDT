@@ -18,6 +18,7 @@ st.write("""
         top: 0px;
         padding: 10px;
         left: 20%;
+        background-image:img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" ;
         background-color: rgba(0, 0, 0, 0.9);
         color: #ffffff;
         border-radius: 30px;
@@ -42,7 +43,6 @@ st.write("""
 </style>
 """, unsafe_allow_html=True)
 
-st.write('<div class="fixed-container"><img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" /><br /><a href="https://mockupapp.streamlit.app/">Streamlit</a> <a href="https://mockupapp.streamlit.app/">Streamlit</a></div>', unsafe_allow_html=True)
  
         
 st.title("Sobre nosotros")
@@ -138,11 +138,8 @@ with st.container():
         st.header("Accidentes Viales en la Ciudad de Buenos Aires")        
         st.markdown("""
                 #### Desde la expansión en 2021, Nuestro cliente analiza nuevos mercados fuera del transporte de buses, por eso nos encomendó analizar la inserción al negocio de los viajes en automóviles, analizando a su competidores directos (Taxis, Uber, Lyft) y comenzando por la ciudad de Nueva York, ya que la misma tiene una de las redes mas complejas de transporte en todo el pais, nuestro trabajo es analizar si es viable el ingreso al sistema cumpliendo con las regulaciones impuestas por el gobierno respecto a tener una ciudad libre de emisiones contaminantes""") 
-        st.subheader("Acceso al proyecto")
         st.write('<div class="botones"><a href="https://greyhound.streamlit.app/">Acceder a la App</a>', unsafe_allow_html=True)
- 
-        st.subheader("Datos relevantes del proyecto")
-        st.subheader("Github: [Acceder al Repositorio](https://github.com/Bethcosima)")
+        st.write('<div class="botones"><a href="https://greyhound.streamlit.app/">Acceder a la documentacion</a>', unsafe_allow_html=True)
     
     with col2:
         imagen = "scr/BA.png"  
