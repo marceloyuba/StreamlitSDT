@@ -17,7 +17,7 @@ st.write("""
         position: relative;
         top: 0px;
         padding: 10px;
-        left: 20%;
+        left: 0%;
         background-image:img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" ;
         background-color: rgba(0, 0, 0, 0);
         color: #ffffff;
