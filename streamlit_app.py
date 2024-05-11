@@ -32,7 +32,7 @@ with st.container():
         
     with col2: 
         
-        st.subheader("Pagina: [Acceder a la App](https://greyhound.streamlit.app/)")   
+        st.subheader("[Productos](https://greyhound.streamlit.app/)")   
     with col3:
         st.text("")
    
