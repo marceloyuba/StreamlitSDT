@@ -94,7 +94,7 @@ with st.container():
                 # """) 
                 
         st.subheader("Acceso al proyecto")
-        st.subheader("Pagina: [Acceder a la App](https://mockupapp.streamlit.app/)") 
+        st.subheader("Pagina : [Acceder a la App](https://mockupapp.streamlit.app/)") 
         st.subheader("Datos relevantes del proyecto")
         st.subheader("Github: [Acceder al Repositorio](https://github.com/StrategicDataTransform)")
     with col2:
