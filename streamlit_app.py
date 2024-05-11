@@ -15,14 +15,15 @@ st.write("""
 <style>
     .fixed-container {
         position: fixed;
-        top: 10px;
-        left: 10px;
-        background-color: #f0f0f0;
+        top: 0px;
+        left: 50%;
+        background-color: rgba(240, 240, 240, 0.8);
         padding: 10px;
         border: 1px solid #ccc;
         border-radius: 5px;
         width: 200px;
         height: 100px;
+        z-index: 9999;
     }
 </style>
 """, unsafe_allow_html=True)
