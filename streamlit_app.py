@@ -15,20 +15,20 @@ st.write("""
 <style>
     .fixed-container {
         position: fixed;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: rgba(240, 240, 240, 0.8); /* RGBA con un alpha de 0.8 para semi-transparencia */
-        padding: 20px;
-        border: 2px solid #333;
-        border-radius: 10px;
-        width: 300px;
-        height: 150px;
-        text-align: center;
-    
+        top: 10px;
+        left: 10px;
+        background-color: #f0f0f0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 200px;
+        height: 100px;
+    }
 </style>
 """, unsafe_allow_html=True)
 
 st.write('<div class="fixed-container">Este es un contenedor fijo</div>', unsafe_allow_html=True)
+
 
 
 
