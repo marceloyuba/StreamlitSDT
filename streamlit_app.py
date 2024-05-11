@@ -11,10 +11,24 @@ def local_css(file_name):
         
 local_css("style/style.css")
 
-fixed_container = st.layout(width=200, height=100, x=0, y=0)
+st.write("""
+<style>
+    .fixed-container {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        background-color: #f0f0f0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 200px;
+        height: 100px;
+    }
+</style>
+""", unsafe_allow_html=True)
 
-with fixed_container:
-    st.write("Este es un contenedor fijo")
+st.write('<div class="fixed-container">Este es un contenedor fijo</div>', unsafe_allow_html=True)
+
 
 
 column_widths = [1, 3, 1]
