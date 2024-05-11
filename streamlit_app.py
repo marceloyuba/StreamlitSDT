@@ -28,7 +28,7 @@ st.write("""
 </style>
 """, unsafe_allow_html=True)
 
-st.write('<div class="fixed-container"><img src="scr/SDTLogoC.png" /><br />Este es un contenedor fijo<br />con varias filas de contenido.</div>', unsafe_allow_html=True)
+st.write('<div class="fixed-container"><img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" /><br />Este es un contenedor fijo<br />con varias filas de contenido.</div>', unsafe_allow_html=True)
 
 
 
