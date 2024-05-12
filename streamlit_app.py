@@ -11,39 +11,19 @@ def local_css(file_name):
         
 local_css("style/style.css")
 
-st.write("""
-<style>
-    .fixed-container {
-        position: relative;
-        bottom: 30px;
-        padding: 10px;
-        left: 10%;
-        background-image:img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" ;
-        background-color: rgba(0, 0, 0, 0);
-        color: #ffffff;
+column_widths = [1, 2, 1]
+with st.container():
+    
+    col1, col2, col3 = st.columns(column_widths)   
+    with col1:
+        st.title("")
         
-        width: 1280px;
-        height: auto;
-        z-index: 9999;
-        
-    }
-    .fixed-container img {
-        width: 1100px; /* Ancho de la imagen */
-        height: auto; /* Autoajuste de la altura según el ancho */
-        margin: 0 auto; /* Centro horizontalmente */
-        display: block; /* Convertir la imagen en un bloque para aplicar márgenes automáticos */
-    }
-    .fixed-container a {
-        font-size: 20px;
-        margin-top: 10px; /* Espacio después de la imagen */
-        text-decoration: none; /* Quitar el subrayado */
-        color: #ffffff; /* Cambiar el color del texto del enlace */
-        
-    }
-</style>
-""", unsafe_allow_html=True)
+    with col3:
+        st.title("")
+          
+    with col2: 
+        st.image("scr/SDTLogoC.png",width=1200, use_column_width=True, output_format='auto')
 
-st.write('<div class="fixed-container"><img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" /></div>', unsafe_allow_html=True)
 st.title("") 
         
 st.title("Sobre nosotros")
