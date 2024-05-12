@@ -207,17 +207,17 @@ with st.container():
 
 with st.container():
     st.write("---")
-    st.header("Get In Touch With Me!")
+    st.header("Contactanos!")
     st.write("##")
 
     # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
     contact_form = """
     <form action="https://formsubmit.co/strategicdatatransform@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value="false">
-        <input type="text" name="name" placeholder="Your name" required>
-        <input type="email" name="email" placeholder="Your email" required>
-        <textarea name="message" placeholder="Your message here" required></textarea>
-        <button type="submit">Send</button>
+        <input type="text" name="name" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="E-mail" required>
+        <textarea name="message" placeholder="Tu consulta" required></textarea>
+        <button type="submit">Enviar</button>
     </form>
     """
     left_column, right_column = st.columns(2)
