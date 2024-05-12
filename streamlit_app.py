@@ -138,8 +138,8 @@ with st.container():
         st.header("Accidentes Viales en la Ciudad de Buenos Aires")        
         st.markdown("""
                 #### Desde la expansión en 2021, Nuestro cliente analiza nuevos mercados fuera del transporte de buses, por eso nos encomendó analizar la inserción al negocio de los viajes en automóviles, analizando a su competidores directos (Taxis, Uber, Lyft) y comenzando por la ciudad de Nueva York, ya que la misma tiene una de las redes mas complejas de transporte en todo el pais, nuestro trabajo es analizar si es viable el ingreso al sistema cumpliendo con las regulaciones impuestas por el gobierno respecto a tener una ciudad libre de emisiones contaminantes""") 
-        st.write('<div class="botones"><a href="https://greyhound.streamlit.app/">Acceder a la App</a>', unsafe_allow_html=True)
-        st.write('<div class="botones"><a href="https://greyhound.streamlit.app/">Acceder a la documentacion</a>', unsafe_allow_html=True)
+        st.write('<div class="botones"><a href="https://accidentesbuenosaires.streamlit.app/">Acceder a la App</a>', unsafe_allow_html=True)
+        st.write('<div class="botones"><a href="https://github.com/marceloyuba/Proyecto_individual_Data_Analyst">Acceder a la documentacion</a>', unsafe_allow_html=True)
     
     with col2:
         imagen = "scr/BA.png"  
