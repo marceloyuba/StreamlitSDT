@@ -204,9 +204,9 @@ with st.container():
         imagen = "scr/fotoLI.jpg"  
         st.image(imagen, width=250, use_column_width=False, output_format='auto')   
 
-
+st.write("<hr style='border-top: 1px solid grey;'>", unsafe_allow_html=True)    
 with st.container():
-    st.write("---")
+    
     st.header("Contactanos!")
     st.write("##")
 
