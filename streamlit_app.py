@@ -123,7 +123,7 @@ with st.container():
                 # """) 
                 
         st.write('<div class="botones"><a href="https://greyhound.streamlit.app/">Acceder a la App</a>', unsafe_allow_html=True)
-        st.write('<div class="botones"><a href="https://greyhound.streamlit.app/">Acceder a la documentacion</a>', unsafe_allow_html=True)
+        st.write('<div class="botones"><a href="https://github.com/marceloyuba/SDT">Acceder a la documentacion</a>', unsafe_allow_html=True)
         
     with col2:
         imagen = "scr/grey.png"  
