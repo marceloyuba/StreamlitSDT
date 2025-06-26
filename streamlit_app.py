@@ -90,7 +90,7 @@ with st.container():
     st.markdown('<style>h1 {color: white;}, font=</style>', unsafe_allow_html=True)
     st.markdown('<style>write {color: white;}, font=</style>', unsafe_allow_html=True)
 st.title("Nuestros proyectos")    
-st.write("<hr style='border-top: 3px solid white;'>", unsafe_allow_html=True)    
+st.write("<hr style='border-top: 3px black;'>", unsafe_allow_html=True)    
 column_widths = [2, 1]
 with st.container():
      
