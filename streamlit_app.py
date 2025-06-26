@@ -22,7 +22,7 @@ with st.container():
         st.title("")
           
     with col2: 
-        st.image("scr/SDTLogoC.png",width=1200, use_column_width=True, output_format='auto')
+        st.image("scr/SDTLogoC.png",width=1200, use_container_width=True, output_format='auto')
 
 st.title("") 
         
@@ -40,7 +40,7 @@ with st.container():
         """)
     with col2:
         imagen = "scr/barras.png"  
-        st.image(imagen, width=500, use_column_width=True, output_format='auto')       
+        st.image(imagen, width=500, use_container_width=True, output_format='auto')       
 
 st.title("Nuestra propuesta de valor")
 st.write("<hr style='border-top: 0.5px solid grey;'>", unsafe_allow_html=True)
@@ -60,7 +60,7 @@ with st.container():
             """)
         with col2:
                 imagen = "scr/dash.png"  
-                st.image(imagen, width=500, use_column_width=True, output_format='auto')    
+                st.image(imagen, width=500, use_container_width=True, output_format='auto')    
             
 st.write("""
 <style>
@@ -107,7 +107,7 @@ with st.container():
         
     with col2:
         imagen = "scr/grey.png"  
-        st.image(imagen, width=500, use_column_width=True, output_format='auto')        
+        st.image(imagen, width=500, use_container_width=True, output_format='auto')        
 
 st.write("<hr style='border-top: 1px solid grey;'>", unsafe_allow_html=True)    
 
@@ -123,7 +123,7 @@ with st.container():
     
     with col2:
         imagen = "scr/BA.png"  
-        st.image(imagen, width=500, use_column_width=True, output_format='auto')
+        st.image(imagen, width=500, use_container_widthh=True, output_format='auto')
     
     
 st.write("<hr style='border-top: 1px solid grey;'>", unsafe_allow_html=True)    
@@ -140,30 +140,12 @@ with st.container():
         #st.write('<div class="botones"><a href="https://greyhound.streamlit.app/">Acceder a la documentacion</a>', unsafe_allow_html=True)
     with col2:
         imagen = "scr/callejon.png"  
-        st.image(imagen, width=500, use_column_width=True, output_format='auto')
+        st.image(imagen, width=500, use_container_width=True, output_format='auto')
 st.write("<hr style='border-top: 1px solid grey;'>", unsafe_allow_html=True)  
 
 st.title("")
 
 st.title("Nuestro equipo de trabajo")
-
-with st.container():
-     
-    col1, col2 = st.columns(column_widths)
-    
-    
-    with col1:
-        st.header("Elizabeth Fraire")
-        st.markdown(""" 
-                #### Departamento: Data Science, Engineering, Analist
-                #### Background: Ciencias Biológicas
-                #### Linkedin: [Acceder a su perfil](https://www.linkedin.com/in/veronica-elizabeth-torres-fraire-a830bb234/)
-                #### Github: [Acceder a su perfil](https://github.com/Bethcosima)
-                """) 
-    
-    with col2:
-        imagen = "scr/Eli.jpg"  
-        st.image(imagen, width=250, use_column_width=False, output_format='auto')    
 
 st.title("")
 
@@ -175,14 +157,14 @@ with st.container():
     with col1:
         st.header("Marcelo Yuba")
         st.markdown(""" 
-                #### Departamento: Data Analist, Graphic Design
+                #### Departamento: Data Analist, Data Engineering, Graphic Design
                 #### Background: Diseño multimedial, Publicidad grafica, E-Commerce
                 #### Linkedin: [Acceder a su perfil](www.linkedin.com/in/marcelo-yuba)
                 #### Github: [Acceder a su perfil](https://github.com/marceloyuba)
                 """) 
     with col2:
         imagen = "scr/fotoLI.jpg"  
-        st.image(imagen, width=250, use_column_width=False, output_format='auto')   
+        st.image(imagen, width=250, use_container_width=False, output_format='auto')   
 
 st.write("<hr style='border-top: 1px solid grey;'>", unsafe_allow_html=True)    
 with st.container():
