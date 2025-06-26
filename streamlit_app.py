@@ -12,7 +12,7 @@ st.markdown(
         }
 
         a {
-            color: #00a4de !important;
+            color: #0291c3 !important;
             text-decoration: none;
         }
 
