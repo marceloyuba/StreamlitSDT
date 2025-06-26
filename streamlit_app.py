@@ -102,8 +102,18 @@ with st.container():
                 #### Proyecto de analisis de insercion de mercado al sistema de vehiculos con chofer para la ciudad de NYC, se analizaron tanto los factores economicos como ambientales para tomar desiciones de si invertir o no en este negocio, tomando en cuenta varias hipotesis y llegando a sus respectivas conclusiones
                 # """) 
                 
-        st.write('<div class="botones"><a href="https://greyhound.streamlit.app/">Acceder a la App</a>', unsafe_allow_html=True)
-        st.write('<div class="botones"><a href="https://github.com/marceloyuba/SDT">Acceder a la documentacion</a>', unsafe_allow_html=True)
+st.write('''
+    <div class="botones">
+        <a href="https://greyhound.streamlit.app/" style="color: black;">Acceder a la App</a>
+    </div>
+''', unsafe_allow_html=True)
+
+st.write('''
+    <div class="botones">
+        <a href="https://github.com/marceloyuba/SDT" style="color: black;">Acceder a la documentación</a>
+    </div>
+''', unsafe_allow_html=True)
+
         
     with col2:
         imagen = "scr/grey.png"  
