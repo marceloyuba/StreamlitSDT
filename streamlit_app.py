@@ -123,7 +123,7 @@ with st.container():
     
     with col2:
         imagen = "scr/BA.png"  
-        st.image(imagen, width=500, use_container_widthh=True, output_format='auto')
+        st.image(imagen, width=500, use_container_width=True, output_format='auto')
     
     
 st.write("<hr style='border-top: 1px solid grey;'>", unsafe_allow_html=True)    
