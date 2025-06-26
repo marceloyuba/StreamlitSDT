@@ -7,15 +7,19 @@ st.set_page_config(page_title="Strategic Data Transform", page_icon="scr/fondo.j
 st.markdown(
     """
     <style>
-        h1, h2, h3, h4, h5, h6, p, div, span, li, a, strong, em {
+        h1, h2, h3, h4, h5, h6, p, div, span, li, strong, em {
             color: black !important;
+        }
+
+        a {
+            color: #00a4de !important;
+            text-decoration: none;
         }
 
         .botones a {
             font-size: 30px;
             margin-top: 10px;
-            text-decoration: none;
-            color: black !important;
+            color: #00a4de !important;
         }
 
         input, textarea, button {
